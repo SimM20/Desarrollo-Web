@@ -1,16 +1,22 @@
 main{
     justify-items: center;
+    font-family: 'Poppins', sans-serif;
     font-size: 1.75rem;
 }
 
 h1{
-    background-color: red;
+    background-color: #32d1ee;
     text-align: center;
     font-size: 4rem;
+    font-weight: 700;
 }
 
 p{
     text-align: center;
+}
+
+blockquote{
+    font-weight: 700;
 }
 
 .myPhoto{
@@ -21,4 +27,23 @@ p{
 .myGames{
     width: 10vh;
     height: 10vh;
+}
+
+table{
+    border-collapse: collapse;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+th, td{
+    padding: 15px;
+    border: 6px solid #32d1ee;
+    font-size: large;
+}
+
+td a{
+    text-decoration: none;
 }
