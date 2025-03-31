@@ -4,6 +4,37 @@ main{
     font-size: 1.75rem;
 }
 
+.navbar {
+    font-family: sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    background-color: #32d1ee;
+    padding: 15px 20px;
+    font-size: 1.5rem;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ff9800;
+}
+
 h1{
     background-color: #32d1ee;
     text-align: center;
