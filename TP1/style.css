@@ -1,7 +1,15 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
 main{
     justify-items: center;
     font-family: 'Poppins', sans-serif;
     font-size: 1.75rem;
+    flex: 1;
 }
 
 .navbar {
@@ -120,7 +128,7 @@ td a{
     color: #00ff00;
     font-family: 'Press Start 2P', cursive;
     text-align: center;
-    }
+}
 
 .retro-container {
     padding: 50px;
@@ -176,4 +184,33 @@ td a{
 .game-photo {
     width: 60vh;
     height: 30vh;
+}
+
+.footer {
+    background-color: #32d1ee;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 1.1rem;
+    margin-top: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.boton-arriba {
+    background-color: #32d1ee;
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: white;
+    color: #32d1ee;
+    font-weight: bold;
+    border: 2px solid #32d1ee;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.boton-arriba:hover {
+    background-color: #00000000;
+    color: white;
 }
