@@ -68,6 +68,10 @@ blockquote{
     height: 10vh;
 }
 
+.myGames:hover{
+    transform:scale(1.2)
+}
+
 table{
     border-collapse: collapse;
     text-align: center;
@@ -139,14 +143,14 @@ td a{
 }
 
 .h1-trivia {
-    font-size: 2rem;
+    font-size: 3rem;
     background-color: #000;
     color: #ff00ff;
     text-shadow: 0 0 5px #ff00ff;
 }
 
 .retro-text {
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     margin: 30px 0;
     color: #0ff;
     text-shadow: 0 0 5px #0ff;
