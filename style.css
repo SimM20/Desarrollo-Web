@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+main{
+    justify-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.75rem;
+}
+
+header{
+    font-family: sans-serif;
+    background-color: #32d1ee;
+}
+
+.linktree-ul{
+    list-style: none; 
+    display: contents;
+}
+
+.linktree-ul li{
+    margin: 5vh;
+}
+
+h1{
+    background-color: #32d1ee;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+p{
+    text-align: center;
+}

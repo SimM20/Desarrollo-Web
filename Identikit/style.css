@@ -43,6 +43,15 @@ main{
     color: #ff9800;
 }
 
+.linktree-ul{
+    list-style: none; 
+    display: contents;
+}
+
+.linktree-ul li{
+    margin: 5vh;
+}
+
 h1{
     background-color: #32d1ee;
     text-align: center;
@@ -201,20 +210,22 @@ td a{
 }
 
 .boton-arriba {
-    background-color: #32d1ee;
-    display: inline-block;
-    margin-top: 15px;
-    padding: 10px 20px;
-    background-color: white;
-    color: #32d1ee;
+    margin-top: 18px;
+    background: #1976d2;
+    color: #fff;
+    border: none;
     font-weight: bold;
-    border: 2px solid #32d1ee;
-    border-radius: 5px;
-    text-decoration: none;
-    transition: background-color 0.3s, color 0.3s;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(25,118,210,0.10);
+    transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+    padding: 12px 28px;
+    font-size: 1.1rem;
+    letter-spacing: 0.7px;
+    display: inline-block;
 }
 
 .boton-arriba:hover {
-    background-color: #00000000;
-    color: white;
+    background: #0e569e;
+    color: #fff;
+    box-shadow: 0 4px 16px rgba(25,118,210,0.18);
 }
