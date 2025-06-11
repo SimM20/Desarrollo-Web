@@ -24,7 +24,7 @@ main{
     justify-items: center;
     background-color: #32d1ee;
     padding: 15px 20px;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
 }
 
 .nav-links {
@@ -63,6 +63,7 @@ section {
     border: 1.5px solid #e3e7ef;
     box-shadow: 0 4px 16px rgba(0,0,0,0.12), 0 1.5px 4px rgba(0,0,0,0.10);
     transition: box-shadow 0.3s, transform 0.3s;
+    padding-bottom: 2rem;
 }
 
 .article-link {
@@ -77,6 +78,14 @@ section {
     box-shadow: 0 12px 32px rgba(0,0,0,0.20), 0 4px 12px rgba(0,0,0,0.14);
     transform: translateY(-6px) scale(1.015);
     background-color: #e3e7ef;
+}
+
+.fecha-articulo {
+    bottom: 0.5rem;
+    right: 1rem;
+    font-size: 0.75rem;
+    color: #666666;
+    font-style: italic;
 }
 
 aside {

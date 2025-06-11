@@ -16,20 +16,41 @@ header{
     background-color: #32d1ee;
 }
 
-.linktree-ul{
-    list-style: none; 
-    display: contents;
+.linktree-ul {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem; 
+    max-width: 300px; 
+    margin: 0;
+    justify-items: center;
 }
 
-.linktree-ul li{
-    margin: 5vh;
+
+.linktree-ul a {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #4A90E2;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+.linktree-ul a:hover,
+.linktree-ul a:focus {
+    background-color: #357ABD;
+    outline: none;
 }
 
 h1{
     background-color: #32d1ee;
     text-align: center;
-    font-size: 4rem;
-    font-weight: 700;
+    font-size: 3rem;
+    font-weight: 600;
 }
 
 p{
