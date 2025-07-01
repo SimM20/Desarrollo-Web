@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio de Simón</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+    <header id="top">
+        <nav class="main-nav">
+            <div class="nav-container">
+                <span class="logo">Simón M.L.</span>
+                <ul class="nav-links">
+                    <li><a href="../">Link Tree</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#sobremi">Sobre mí</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <video autoplay muted loop playsinline class="hero-video">
+                <source src="images/herovideo.mp4" type="video/mp4" />
+            </video>
+            <div class="hero-content">
+                <h1 style="color: white;">Simón Morales Lozano</h1>
+                <br>
+                <p>Game Developer</p>
+                <a href="#proyectos" class="back-btn">Ver más</a>
+            </div>
+        </section>
+        
+        <section id="proyectos" style="margin-top: 10vh;">
+            <h1 style="margin-bottom: 5vh;">Mis Proyectos</h1>
+            <div class="buttons2">
+                <a href="calculator/" class="btn-2" style="background-color: bisque;">
+                    <img src="imagenes/juego1.jpg" alt="Calculadora">
+                </a>
+                <a href="pool/" class="btn-2" style="background-color: bisque;">
+                    <img src="imagenes/juego1.jpg" alt="Pool">
+                </a>
+                <a href="button-box/" class="btn-2" style="background-color: bisque;">
+                    <img src="imagenes/juego1.jpg" alt="Caja de musica">
+                </a>
+            </div>
+        </section>
+
+        <section style="max-width: 800px; padding: 40px 20px; text-align: center; margin-top: 10vh;" id="sobremi">
+            <h1>Sobre mí</h1>
+            <p>
+                Soy Simón, estudiante de desarrollo de videojuegos, cantante y toco el piano y la guitarra. <br>
+                Trabajo como desarrollador web y me encanta crear mundos únicos donde el diseño, música y
+                código se combinan.
+            </p>
+            <br>
+            <h2>Habilidades:</h2>
+            <ul style="list-style: none; padding: 0;">
+                <li>🎮 Unity y Unreal / C# y C++</li>
+                <li>🌐 HTML / CSS / JavaScript</li>
+                <li>🎨 Diseño UI/UX</li>
+                <li>🎵 Producción musical</li>
+                <li>📱 Desarrollo Android</li>
+            </ul>
+        </section>
+        
+        <section style="width: 100%; max-width: 600px; padding: 40px 20px; margin-top: 10vh;" id="contacto">
+            <h1>Contacto</h1>
+            <center>
+                <form action="https://formsubmit.co/simon.moraleslozano@live.com" method="POST">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="text" name="name" required placeholder="Tu nombre"
+                        style="width: 100%; padding: 10px; margin-bottom: 15px; border-radius: 10px; border: 1px solid #ccc;">
+                    <input type="email" name="email" required placeholder="Tu correo"
+                        style="width: 100%; padding: 10px; margin-bottom: 15px; border-radius: 10px; border: 1px solid #ccc;">
+                    <textarea name="message" required placeholder="Tu mensaje" rows="5"
+                        style="width: 100%; padding: 10px; margin-bottom: 15px; border-radius: 10px; border: 1px solid #ccc;"></textarea>
+                    <p style="font-size: .8rem; text-align: center;">Te responderé a la brevedad</p>
+                    <button type="submit" class="back-btn">Enviar</button>
+                </form>
+            </center>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Simón Morales Lozano. Todos los derechos reservados.</p>
+        <a href="#top" class="boton-arriba">Volver arriba</a>
+    </footer>
+</body>
+
+</html>
