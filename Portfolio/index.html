@@ -2,9 +2,9 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio de Simón</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Portfolio - Simón Morales Lozano</title>
     <link rel="stylesheet" href="style.css"/>
 </head>
 
@@ -35,42 +35,105 @@
                 <a href="#proyectos" class="back-btn">Ver más</a>
             </div>
         </section>
-        
-        <section id="proyectos" style="margin-top: 10vh;">
+
+        <section id="proyectos" style="margin-top: 15vh;">
             <h1 style="margin-bottom: 5vh;">Mis Proyectos</h1>
             <div class="buttons2">
-                <a href="calculator/" class="btn-2" style="background-color: bisque;">
+                <a href="calculator/" class="btn-2">
                     <img src="images/cal.png" alt="Calculadora">
                 </a>
-                <a href="pool/" class="btn-2" style="background-color: bisque;">
+                <a href="pool/" class="btn-2">
                     <img src="images/pool.png" alt="Pool">
                 </a>
-                <a href="button-box/" class="btn-2" style="background-color: bisque;">
+                <a href="button-box/" class="btn-2">
                     <img src="images/botonera.png" alt="Caja de musica">
                 </a>
             </div>
         </section>
 
-        <section style="max-width: 800px; padding: 40px 20px; text-align: center; margin-top: 10vh;" id="sobremi">
-            <h1>Sobre mí</h1>
-            <p>
-                Soy Simón, estudiante de desarrollo de videojuegos, cantante y toco el piano y la guitarra. <br>
-                Trabajo como desarrollador web y me encanta crear mundos únicos donde el diseño, música y
-                código se combinan.
+        <section id="videojuegos" style="max-width: 1100px; padding: 40px 20px; margin-top: 15vh;">
+    <h1 style="font-size: 2.5rem; color: #1a237e; text-align: center;">Videojuegos desarrollados</h1>
+
+    <div class="game-cards-container">
+        <div class="game-card">
+            <img src="images/EclipsedLogo.png" alt="Juego 1">
+            <h3>Eclipsed Fates</h3>
+            <p class="game-desc">
+                Juego de terror 2D top-down donde el jugador debe sobrevivir en un laboratorio oscuro y aterrador.
             </p>
-            <br>
-            <h2>Habilidades:</h2>
-            <ul style="list-style: none; padding: 0;">
-                <li>🎮 Unity y Unreal / C# y C++</li>
+            <p class="game-role">Programador principal y game designer y artista.</p>
+            <a href="https://isla-games-studio.itch.io/eclipsed-fates" target="_blank" class="card-btn">Ver en Itch.io</a>
+        </div>
+
+        <div class="game-card">
+            <img src="images/Application.ico" alt="Juego 2">
+            <h3>Horizon</h3>
+            <p class="game-desc">
+                Juego en tercera persona donde el jugador debe desenterrar el misterio del protagonista mientras explora una galaxia futurista y distopica.
+            </p>
+            <p class="game-role">Game designer y programador.</p>
+            <a href="https://isla-games-studio.itch.io/horizon" target="_blank" class="card-btn">Ver en Itch.io</a>
+        </div>
+        
+        <div class="game-card">
+            <img src="images/KermesseShowdown.png" alt="Juego 2">
+            <h3>Kermesse Showdown</h3>
+            <p class="game-desc">
+                Juego arcade 2D donde visitamos una kermesse y debemos superar diferentes minijuegos para derrotar a un payaso malvado.
+            </p>
+            <p class="game-role">Programador y tester.</p>
+        </div>
+
+        <div class="game-card">
+            <img src="images/TikoIcon.png" alt="Juego 2">
+            <h3>Tiko's Rising Notes</h3>
+            <p class="game-desc">
+                Juego de aventura musical en 2D donde el jugador debe tocar las notas al ritmo de la música para avanzar en la historia.
+            </p>
+            <p class="game-role">Tester</p>
+            <a href="https://alkanwws.itch.io/tikos-rising-notes" target="_blank" class="card-btn">Ver en Itch.io</a>
+        </div>
+    </div>
+</section>
+
+        <section id="sobremi" style="max-width: 800px; padding: 60px 30px; margin: auto; text-align: left; line-height: 1.6; margin-top: 5vh;">
+            <h1 style="font-size: 2.5rem; color: #1a237e; text-align: center;">Sobre mí</h1>
+
+            <p style="font-size: 1.2rem; margin-bottom: 30px;">
+                Soy Simón, estudiante de desarrollo de videojuegos, cantante y músico autodidacta (piano y guitarra).
+                Me apasiona crear mundos únicos donde el diseño, la música y el código se combinan para generar
+                experiencias únicas.
+            </p>
+
+            <h2 style="font-size: 1.6rem; color: #1a237e; margin-top: 40px; margin-bottom: 15px;">🎓 Formación académica
+            </h2>
+            <ul style="list-style: none; padding: 0; font-size: 1.1rem; margin-left: 10px;">
+                <li>• 1 año en <strong>ITBA</strong> – Ingeniería Informática</li>
+                <li>• 2 años en <strong>UCA</strong> – Ingeniería Informática</li>
+                <li>• 2.5 años en <strong>UADE</strong> – Lic. en Desarrollo de Videojuegos</li>
+            </ul>
+
+            <h2 style="font-size: 1.6rem; color: #1a237e; margin-top: 30px; margin-bottom: 15px;">💼 Experiencia laboral
+            </h2>
+            <ul style="list-style: none; padding: 0; font-size: 1.1rem; margin-left: 10px;">
+                <li>• 6 meses en <strong>Ingeniería ALPA</strong> – Desarrollador Web</li>
+                <li>• 2 meses en <strong>COPESA</strong> – Desarrollador Web y CM</li>
+            </ul>
+
+            <h2 style="font-size: 1.6rem; color: #1a237e; margin-top: 30px; margin-bottom: 15px;">🛠️ Habilidades</h2>
+            <ul style="list-style: none; padding: 0; font-size: 1.1rem; margin-left: 10px;">
+                <li>🎮 Unity / Unreal / Renpy</li>
+                <li>🧑🏼‍💻 C / C# / C++ / Python</li>
                 <li>🌐 HTML / CSS / JavaScript</li>
                 <li>🎨 Diseño UI/UX</li>
                 <li>🎵 Producción musical</li>
                 <li>📱 Desarrollo Android</li>
             </ul>
         </section>
-        
-        <section style="width: 100%; max-width: 600px; padding: 40px 20px; margin-top: 10vh;" id="contacto">
+
+        <section style="width: 100%; max-width: 600px; padding: 40px 20px; margin-top: 5vh;" id="contacto">
             <h1>Contacto</h1>
+            <p style="text-align: center; padding-bottom: 2vh;">¡Colaboremos!</p>
             <center>
                 <form action="https://formsubmit.co/simon.moraleslozano@live.com" method="POST">
                     <input type="hidden" name="_captcha" value="false">
