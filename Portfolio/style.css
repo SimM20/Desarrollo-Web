@@ -425,8 +425,13 @@ h1 {
     cursor: pointer;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1600px) {
+    .gallery-grid {
+        grid-template-columns: 1fr;
+    }
+}
 
+@media (max-width: 768px) {
     .buttons2{
     display: flex;
     flex-direction: column;
@@ -457,6 +462,32 @@ h1 {
 
     .logo {
         font-size: 1.2rem;
+    }
+
+    .gallery-grid img {
+    max-width: 300px;
+    width: 100%;
+    }
+
+    .lightbox-content {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .nav-btn {
+        font-size: 1.5rem;
+        padding: 8px 12px;
+    }
+
+    #lightbox-img {
+        max-height: 60vh;
+        width: auto;
+    }
+
+    .lightbox-close {
+        top: 8px;
+        right: 12px;
+        font-size: 1.5rem;
     }
 }
 
