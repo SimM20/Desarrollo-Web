@@ -138,14 +138,16 @@
             <h1>Contacto</h1>
             <p style="text-align: center; padding-bottom: 2vh;">¡Colaboremos!</p>
             <center>
-                <form action="https://formsubmit.co/simon.moraleslozano@live.com" method="POST">
-                    <input type="hidden" name="_captcha" value="false">
+                <form id="contact-form">
                     <input type="text" name="name" required placeholder="Tu nombre"
                         style="width: 100%; padding: 10px; margin-bottom: 15px; border-radius: 10px; border: 1px solid #ccc;">
+
                     <input type="email" name="email" required placeholder="Tu correo"
                         style="width: 100%; padding: 10px; margin-bottom: 15px; border-radius: 10px; border: 1px solid #ccc;">
+
                     <textarea name="message" required placeholder="Tu mensaje" rows="5"
                         style="width: 100%; padding: 10px; margin-bottom: 15px; border-radius: 10px; border: 1px solid #ccc;"></textarea>
+
                     <p style="font-size: .8rem; text-align: center;">Te responderé a la brevedad</p>
                     <button type="submit" class="back-btn">Enviar</button>
                 </form>
@@ -157,6 +159,14 @@
         <p>Simón Morales Lozano. Todos los derechos reservados.</p>
         <a href="#top" class="boton-arriba">Volver arriba</a>
     </footer>
+
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+        (function () {
+            emailjs.init("_kheVovULBMsA7jUF");
+        })();
+    </script>
+    <script src="js/sendemailjs.js"></script>
 </body>
 
 </html>
